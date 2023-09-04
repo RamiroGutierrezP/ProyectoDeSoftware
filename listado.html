@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de Plantas</title>
+    <link rel="stylesheet" href="estilosIA.css">
+</head>
+
+<body>
+    <header>
+        <h1>Bienvenido al sitio de plantas</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="contacto.html">Información de contacto</a></li>
+                <li><a href="mantenedor.html">Información de quien mantiene el sitio</a></li>
+                <li><a href="listado.html">Listado de plantas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Nuestras Plantas</h2>
+
+        <!-- Contenedor de plantas interiores -->
+        <div class="contenedor-planta">
+            <input type="radio" name="tipoPlanta" id="interiores-btn" checked>
+            <label for="interiores-btn" class="btn-interiores">Plantas interiores</label>
+            
+            <div class="galeria-plantas interiores">
+                <!-- Añadir las plantas de interiores aquí -->
+                <div class="planta-item">
+                    <img src="imagenes/planta_interior1.jpeg" alt="Descripción planta 1">
+                    <a href="info/planta_interior1.pdf">Más información</a>
+                </div>
+                <div class="planta-item">
+                    <img src="imagenes/planta_interior2.jpeg" alt="Descripción planta 2">
+                    <a href="info/planta_interior2.pdf">Más información</a>
+                </div>
+                <div class="planta-item">
+                    <img src="imagenes/planta_interior3.jpeg" alt="Descripción planta 3">
+                    <a href="info/planta_interior3.pdf">Más información</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contenedor de plantas exteriores -->
+        <div class="contenedor-planta">
+            <input type="radio" name="tipoPlanta" id="exteriores-btn">
+            <label for="exteriores-btn" class="btn-exteriores">Plantas exteriores</label>
+            
+            <div class="galeria-plantas exteriores">
+                <!-- Añadir las plantas de exteriores aquí -->
+                <div class="planta-item">
+                    <img src="imagenes/planta_exterior1.jpeg" alt="Descripción planta 1">
+                    <a href="info/planta_exterior1.pdf">Más información</a>
+                </div>
+                <div class="planta-item">
+                    <img src="imagenes/planta_exterior2.jpeg" alt="Descripción planta 2">
+                    <a href="info/planta_exterior2.pdf">Más información</a>
+                </div>
+                <div class="planta-item">
+                    <img src="imagenes/planta_exterior3.jpeg" alt="Descripción planta 3">
+                    <a href="info/planta_exterior3.pdf">Más información</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Derechos reservados 2023.</p>
+    </footer>
+</body>
+
+</html>
+
